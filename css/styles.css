@@ -5,49 +5,50 @@
 
 /* ---- Display typeface ---------------------------------------------------
    The design sets every heading in "Season Mix" (Figma reports it as
-   Season_Mix-TRIAL). The family ships in assets/season-font-family/; only the
-   three weights the design actually uses are declared here — Regular for card
-   titles and tab labels, Medium for headings, SemiBold for the stat numbers.
+   Season_Mix-TRIAL). The family ships in assets/fonts/season-mix/; only the
+   weights the design actually uses are declared here — Regular for card
+   titles and tab labels, Medium for headings, SemiBold for the stat numbers,
+   Bold, and the Regular/Medium italics.
    Body copy stays on Open Sans, loaded from Google Fonts in each page head.
    -------------------------------------------------------------------------- */
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-Regular.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-Regular.otf") format("opentype");
   font-weight:400;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-Medium.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-Medium.otf") format("opentype");
   font-weight:500;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-SemiBold.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-SemiBold.otf") format("opentype");
   font-weight:600;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-Bold.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-Bold.otf") format("opentype");
   font-weight:700;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-RegularItalic.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-RegularItalic.otf") format("opentype");
   font-weight:400;
   font-style:italic;
   font-display:swap;
 }
 @font-face{
   font-family:"Season Mix";
-  src:url("../assets/season-font-family/SeasonMix-TRIAL-MediumItalic.otf") format("opentype");
+  src:url("../assets/fonts/season-mix/SeasonMix-TRIAL-MediumItalic.otf") format("opentype");
   font-weight:500;
   font-style:italic;
   font-display:swap;

@@ -6,11 +6,11 @@ files, so removing it broke no other page.
 
 ## What was moved here
 
-| Archived path                        | Goes back to          |
-| ------------------------------------ | --------------------- |
-| `_archive/events/events.html`        | `events.html`         |
-| `_archive/events/css/events.css`     | `css/events.css`      |
-| `_archive/events/assets/events/`     | `assets/events/`      |
+| Archived path                              | Goes back to                |
+| ------------------------------------------ | --------------------------- |
+| `_archive/events/events.html`              | `events.html`               |
+| `_archive/events/css/pages/events.css`     | `css/pages/events.css`      |
+| `_archive/events/assets/images/events/`    | `assets/images/events/`     |
 
 ## What was changed in place
 
@@ -35,9 +35,9 @@ Run both steps from the repo root.
 **1. Move the files back**
 
 ```sh
-mv _archive/events/events.html        events.html
-mv _archive/events/css/events.css     css/events.css
-mv _archive/events/assets/events      assets/events
+mv _archive/events/events.html              events.html
+mv _archive/events/css/pages/events.css     css/pages/events.css
+mv _archive/events/assets/images/events     assets/images/events
 rm -rf _archive/events
 ```
 
